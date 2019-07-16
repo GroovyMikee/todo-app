@@ -23,10 +23,10 @@ public class FxEditItemView implements EditItemView {
         content.setPadding(new Insets(5));
         content.setHgap(5);
         content.setVgap(5);
-        content.addRow(0, new Label("Tytuł:"), itemTitleTextField);
+        content.addRow(0, new Label("Title:"), itemTitleTextField);
 
         Dialog<UpdateItemDto> itemDialog = new Dialog<>();
-        itemDialog.setTitle("Edycja elementu");
+        itemDialog.setTitle("Edit Item");
         itemDialog.getDialogPane().setContent(content);
         itemDialog.getDialogPane().getButtonTypes().addAll(ButtonType.OK, ButtonType.CANCEL);
         itemDialog.setResultConverter(buttonPressed -> buttonPressed == ButtonType.OK

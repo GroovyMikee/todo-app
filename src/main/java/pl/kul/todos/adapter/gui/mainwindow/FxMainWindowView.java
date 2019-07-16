@@ -39,10 +39,10 @@ class FxMainWindowView implements MainWindowView {
             }
         });
 
-        MenuItem importFromFileMenuItem = new MenuItem("Z pliku");
+        MenuItem importFromFileMenuItem = new MenuItem("From file");
         importFromFileMenuItem.setOnAction(event -> presenter.importItems("FILE"));
 
-        MenuItem importFromRssMenuItem = new MenuItem("Z kanału RSS");
+        MenuItem importFromRssMenuItem = new MenuItem("from RSS channel");
         importFromRssMenuItem.setOnAction(event -> presenter.importItems("RSS"));
 
         MenuButton importItemsButton = new MenuButton(

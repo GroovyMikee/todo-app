@@ -36,10 +36,10 @@ class FxNewItemView implements NewItemView {
         content.setPadding(new Insets(5));
         content.setHgap(5);
         content.setVgap(5);
-        content.addRow(0, new Label("Tytuł:"), itemTitleTextField);
+        content.addRow(0, new Label("Title:"), itemTitleTextField);
 
         Dialog<NewItemDto> itemDialog = new Dialog<>();
-        itemDialog.setTitle("Kreator elementu");
+        itemDialog.setTitle("Create Item");
         itemDialog.getDialogPane().setContent(content);
         itemDialog.getDialogPane().getButtonTypes().addAll(ButtonType.OK, ButtonType.CANCEL);
         itemDialog.setResultConverter(buttonPressed -> buttonPressed == ButtonType.OK
@@ -50,7 +50,7 @@ class FxNewItemView implements NewItemView {
             String errorMessage = null;
 
             if (itemTitleTextField.getText() == null || itemTitleTextField.getText().isBlank()) {
-                errorMessage = "Tytuł nie może być pusty";
+                errorMessage = "Title cannot be empty";
             }
 
             if (errorMessage != null) {
