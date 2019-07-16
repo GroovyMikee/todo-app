@@ -13,6 +13,8 @@ Edit items on task list
 
 ![edited](https://user-images.githubusercontent.com/48024421/61282584-dffaf680-a7bb-11e9-8e70-a0dd6b9d140e.PNG)
 
-Sign items as done with summary description
+Mark items as done with summary description
 
 ![task done](https://user-images.githubusercontent.com/48024421/61282597-e8533180-a7bb-11e9-925e-93607de8ea24.PNG)
+
+Remove items from task list
