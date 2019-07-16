@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~files/feed-premium.xsl"?>
+
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:feedpress="https://feed.press/xmlns" version="2.0">
+    <channel>
+        <feedpress:locale>en</feedpress:locale>
+        <atom:link rel="self" href="http://feeds.dzone.com/home"/>
+        <atom:link rel="hub" href="http://feedpress.superfeedr.com/"/>
+        <title>DZone.com Feed</title>
+        <link>https://dzone.com</link>
+        <description>Recent posts on DZone.com</description>
+        <item>
+            <title>Box Old Objects to Be Autoclosable</title>
+            <link>https://dzone.com/articles/box-old-objects-to-be-autoclosable</link>
+            <description>&lt;p pid="21"&gt;Since Java 7, we can use try-with-resources and have any object automatically closed that implements the &lt;code&gt;Autocloseable&lt;/code&gt; interface. If the resource &lt;em&gt;is&amp;nbsp;&lt;/em&gt;&lt;code&gt;Autocloseable&lt;/code&gt;, some of the classes need some wrap-up but are not &lt;code&gt;Autocloseable&lt;/code&gt;. These are mainly old classes in some legacy framework that still get in our way to make us trip up. Nobody is using Struts any more, but still, there are enough old frameworks that are lurking in the dark and with which we have to live. I recently had that experience and I was so motivated that I created a simple &lt;code&gt;AutoCloser&lt;/code&gt; class.&lt;/p&gt;
+                &lt;p pid="22"&gt;We may have a legacy class (in the example, this is a mocking inner class of the testing class)&lt;/p&gt;</description>
+            <category>java</category>
+            <category>java 7</category>
+            <category>legacy code</category>
+            <category>objects</category>
+            <category>legacy</category>
+            <category>box</category>
+            <category>autoclosable</category>
+            <category>autocloser</category>
+            <pubDate>Tue, 28 May 2019 07:01:02 GMT</pubDate>
+            <guid isPermaLink="false">https://dzone.com/articles/2790496</guid>
+            <media:thumbnail url="https://dzone.com/thumbnail?fid=11899850&amp;w=600"/>
+            <dc:creator>Peter Verhas</dc:creator>
+        </item>
+        <item>
+            <title>Random Sampling From a File</title>
+            <link>https://dzone.com/articles/random-sampling-from-a-file</link>
+            <description>&lt;article class="post-41644 post type-post status-publish format-standard hentry category-computing tag-linux tag-probability-and-statistics" id="post-41644"&gt;
+                &lt;div class="entry-content"&gt;
+                &lt;p&gt;I recently learned about the Linux command line utility &lt;code&gt;shuf&lt;/code&gt; from browsing &lt;a href="https://github.com/jlevy/the-art-of-command-line" target="_blank"&gt;The Art of Command Line&lt;/a&gt;. This could be useful for random sampling.&lt;/p&gt;
+                &lt;p&gt;Given just a file name, &lt;code&gt;shuf&lt;/code&gt; randomly permutes the lines of the file.&lt;/p&gt;</description>
+            <category>open source</category>
+            <category>tutorial</category>
+            <category>command line</category>
+            <category>linux commands</category>
+            <category>random sampling</category>
+            <pubDate>Tue, 28 May 2019 05:04:02 GMT</pubDate>
+            <guid isPermaLink="false">https://dzone.com/articles/2792118</guid>
+            <media:thumbnail url="https://dzone.com/thumbnail?fid=11907585&amp;w=600"/>
+            <dc:creator>John Cook</dc:creator>
+        </item>
+    </channel>
+</rss>
