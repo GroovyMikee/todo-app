@@ -13,7 +13,7 @@ public class ItemDetailsPresenter {
         itemDetailsView.showItemDetails(new ItemDetailsDto(
                 itemDto.getName(),
                 itemDto.getDescription(),
-                itemDto.isDone() ? "Ukończony" : "Oczekuje",
+                itemDto.isDone() ? "Done" : "Waiting",
                 itemDto.getSummary() == null ? "-" : itemDto.getSummary()
         ));
     }

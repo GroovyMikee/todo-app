@@ -40,12 +40,12 @@ class FxItemCompletedView implements ItemCompletedView {
         content.setPadding(new Insets(5));
         content.setHgap(5);
         content.setVgap(5);
-        VBox summaryLabelLayout = new VBox(new Label("Podsumowanie:"));
+        VBox summaryLabelLayout = new VBox(new Label("Summary:"));
         summaryLabelLayout.setAlignment(Pos.TOP_RIGHT);
         content.addRow(0, summaryLabelLayout, summaryText);
 
         Dialog<ItemCompletedDto> itemDialog = new Dialog<>();
-        itemDialog.setTitle("Zakończ zadanie");
+        itemDialog.setTitle("Finish the task");
         itemDialog.getDialogPane().setContent(content);
         itemDialog.getDialogPane().getButtonTypes().addAll(ButtonType.OK, ButtonType.CANCEL);
         itemDialog.setResultConverter(buttonPressed -> buttonPressed == ButtonType.OK
@@ -56,7 +56,7 @@ class FxItemCompletedView implements ItemCompletedView {
             String errorMessage = null;
 
             if (summaryText.getText() == null || summaryText.getText().isBlank()) {
-                errorMessage = "Uzupełnij podsumowanie";
+                errorMessage = "Complete the summary";
             }
 
             if (errorMessage != null) {
