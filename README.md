@@ -17,4 +17,6 @@ Mark items as done with summary description
 
 ![task done](https://user-images.githubusercontent.com/48024421/61282597-e8533180-a7bb-11e9-925e-93607de8ea24.PNG)
 
-Remove items from task list
+Remove items from task list and import items form file and RSS chanel
+
+![removed](https://user-images.githubusercontent.com/48024421/61283003-b393aa00-a7bc-11e9-95a4-35bea8fe641b.PNG)
